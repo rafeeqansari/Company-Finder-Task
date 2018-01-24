@@ -1,0 +1,142 @@
+.App {
+    text-align: center;
+}
+
+.main-div {
+    margin: 20px;
+    /* border: 1px solid #eeeeee; */
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+}
+
+.App-header {
+    background-color: #222;
+    height: 150px;
+    padding: 20px;
+    color: white;
+}
+
+.App-title {
+    font-size: 1.5em;
+}
+
+.App-intro {
+    font-size: large;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@import url('https://fonts.googleapis.com/css?family=Monoton|Raleway');
+body {
+    margin: 0;
+    padding: 0;
+    /* background: url('http://i.hizliresim.com/v4Qykv.png') no-repeat center center fixed; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Roboto', Tahoma, Arial, sans-serif;
+    line-height: 1.5;
+    font-size: 13px;
+    background-image: linear-gradient(to right, #25c481, #25b7c4), url('http://i.hizliresim.com/v4Qykv.png');
+    /* background: linear-gradient(to right, #25c481, #25b7c4); */
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+div {
+    &.sub-main-div {
+        text-align: center;
+    }
+    &.content {
+        width: 40%;
+        padding: 0 5%;
+        /* float: left; */
+        border: 1px solid #eeeeee;
+        border-radius: 4px;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+        margin-top: 5px;
+    }
+    &.right {
+        text-align: center;
+        top: 5px;
+        width: 20%;
+        padding: 0 5% 0 0;
+        float: left;
+        /* border-left: 1px solid #eeeeee; */
+        border-radius: 4px;
+        padding-bottom: 10px;
+        margin-top: 5px;
+        margin-left: 200px;
+    }
+}
+
+h1 {
+    text-align: center;
+}
+
+.content-div {
+    float: left;
+    border: 1px solid #eeeeee;
+    border-radius: 4px;
+}
+
+tr {
+    cursor: pointer;
+}
+
+td {
+    width: 100px;
+}
+
+th,
+td {
+    border-bottom: 1px solid #ddd;
+}
+
+tr {
+    &:hover,
+    &:focus {
+        background-color: rgba(34, 49, 52, 0.9);
+        color: #FFF;
+    }
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr.selected {
+    background-color: rgba(34, 49, 52, 0.9);
+}
+
+table {
+    display: block;
+}
+
+.second-td {
+    width: 185px;
+}
+
+thead>tr {
+    height: 40px;
+}

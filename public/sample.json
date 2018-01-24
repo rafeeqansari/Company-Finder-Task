@@ -1,0 +1,12 @@
+ [{ "id": 0, "imageURL": "/avtar4.png", "companyName": "AutomateIO" },
+     { "id": 1, "imageURL": "/avtar2.png", "companyName": "Google" },
+     { "id": 2, "imageURL": "/avtar4.png", "companyName": "Microsoft" },
+     { "id": 3, "imageURL": "/avtar2.png", "companyName": "Host Analytics" },
+     { "id": 4, "imageURL": "/avtar1.png", "companyName": "Apple" },
+     {
+         "id": 5,
+         "imageURL": "/avtar2.png",
+         "companyName": "Eitacis",
+         "isSelected": false
+     }
+ ]

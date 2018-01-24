@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css?family=Monoton|Raleway");
+.App {
+  text-align: center; }
+
+.main-div {
+  margin: 20px;
+  /* border: 1px solid #eeeeee; */
+  margin-bottom: 5px;
+  text-align: center; }
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px; }
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white; }
+
+.App-title {
+  font-size: 1.5em; }
+
+.App-intro {
+  font-size: large; }
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+
+body {
+  margin: 0;
+  padding: 0;
+  /* background: url('http://i.hizliresim.com/v4Qykv.png') no-repeat center center fixed; */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Roboto', Tahoma, Arial, sans-serif;
+  line-height: 1.5;
+  font-size: 13px;
+  background-image: linear-gradient(to right, #25c481, #25b7c4), url("http://i.hizliresim.com/v4Qykv.png");
+  /* background: linear-gradient(to right, #25c481, #25b7c4); */ }
+
+form {
+  outline: 0;
+  float: left;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  -webkit-border-radius: 4px;
+  border-radius: 4px; }
+  form > .textbox {
+    outline: 0;
+    height: 42px;
+    width: 244px;
+    line-height: 42px;
+    padding: 0 16px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #212121;
+    border: 0;
+    /* float: left; */
+    -webkit-border-radius: 4px 0 0 4px;
+    border-radius: 4px 4px 4px 4px;
+    margin: 7px; }
+    form > .textbox:focus {
+      outline: 0;
+      background-color: #FFF; }
+  form > .button {
+    outline: 0;
+    background: none;
+    background-color: rgba(38, 50, 56, 0.8);
+    float: left;
+    height: 42px;
+    width: 42px;
+    text-align: center;
+    line-height: 42px;
+    border: 0;
+    color: #FFF;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 16px;
+    text-rendering: auto;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    -webkit-transition: background-color .4s ease;
+    transition: background-color .4s ease;
+    -webkit-border-radius: 0 4px 4px 0;
+    border-radius: 0 4px 4px 0; }
+    form > .button:hover {
+      background-color: rgba(0, 150, 136, 0.8); }
+
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%; }
+
+div.sub-main-div {
+  text-align: center; }
+
+div.content {
+  width: 40%;
+  padding: 0 5%;
+  /* float: left; */
+  border: 1px solid #eeeeee;
+  border-radius: 4px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  margin-top: 5px; }
+
+div.right {
+  text-align: center;
+  top: 5px;
+  width: 20%;
+  padding: 0 5% 0 0;
+  float: left;
+  /* border-left: 1px solid #eeeeee; */
+  border-radius: 4px;
+  padding-bottom: 10px;
+  margin-top: 5px;
+  margin-left: 200px; }
+
+h1 {
+  text-align: center; }
+
+.content-div {
+  float: left;
+  border: 1px solid #eeeeee;
+  border-radius: 4px; }
+
+tr {
+  cursor: pointer; }
+
+td {
+  width: 100px; }
+
+.bigger-rightpaneimg {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%; }
+
+.rightpaneText {
+  font-size: 50px;
+  font-weight: bold;
+  margin-left: 90px; }
+
+th,
+td {
+  border-bottom: 1px solid #ddd; }
+
+tr:hover, tr:focus {
+  background-color: rgba(34, 49, 52, 0.9);
+  color: #FFF; }
+
+th {
+  background-color: #4CAF50;
+  color: white; }
+
+tr.selected {
+  background-color: rgba(34, 49, 52, 0.9); }
+
+table {
+  display: block; }
+
+.second-td {
+  width: 185px; }
+
+thead > tr {
+  height: 40px; }
