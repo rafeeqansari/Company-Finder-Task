@@ -5,7 +5,6 @@ import { bindActionCreators } from "redux";
 import { ShowCompany } from "../actions/actionTypes";
 
  let RecvProps = null;
-// export default class NotesListItem extends React.Component {
     class ListItem extends React.Component {
       constructor(props) {
         super(props);

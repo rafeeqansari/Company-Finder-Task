@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../App.css";
+import "../dist/styles/Output/App.css";
 import {DataTable,TableHeader} from 'react-mdl';
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
@@ -55,18 +55,6 @@ let Recvprop = null;
    render() {
      return <div className="right">
          {this.updateRightPane()}
-
-         {/* <DataTable shadow={0} rows={[{ material: "Acrylic (Transparent)", quantity: 25, price: 2.9 }, { material: "Plywood (Birch)", quantity: 50, price: 1.25 }, { material: "Laminate (Gold on Blue)", quantity: 10, price: 2.35 }]}>
-          <TableHeader name="material" tooltip="The amazing material name">
-            Avatar
-          </TableHeader>
-          <TableHeader numeric name="quantity" tooltip="Number of materials">
-            Company Name
-          </TableHeader>
-          <TableHeader numeric name="price" cellFormatter={price => `\$${price.toFixed(2)}`} tooltip="Price pet unit">
-            Price
-          </TableHeader>
-        </DataTable> */}
        </div>;
    }
  }
