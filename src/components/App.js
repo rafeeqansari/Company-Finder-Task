@@ -5,7 +5,6 @@ import { bindActionCreators } from "redux";
 import SearchBox from './search';
 import "../dist/styles/Output/App.css";
 import List from "./list";
-import Avatar from "./avatar"
 import RightPane from "./rightContent";
 
 
